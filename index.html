@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Libros</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+	<!--codigos para flexslider-->
+	<link rel="stylesheet" type="text/css" href="css/flexslider.css">
+	<script src="js/jquery.min.js"></script>
+
+	<script src="js/jquery.flexslider.js"></script>
+
+
+
+	<script type="text/javascript">
+	$(window).load(function() {
+	  $('.flexslider').flexslider({
+	    animation: "slide",
+	    controlNav: "thumbnails"
+	  });
+	});
+	</script>
+
+</head>
+<body>
+	<header>
+		<h1>libros</h1>
+		<a href="index.html">
+			 <nav id="encabezado">
+            <ul>
+            <li><a href="registro.html">Registrate</a></li>
+            </ul>
+        </nav>
+	</header>
+	<nav id="principal">
+    	<ul>
+    		<li><a href="index.html">INICIO</a></li>
+	    	<li><a href="suspenso.html">suspenso</a></li>
+	    	<li><a href="#">comedia</a></li>
+	    	<li><a href="#">romance</a></li>
+	    	<li><a href="#">accion</a></li>
+	    	<li><a href="#">ficcion</a></li>
+    	</ul>	
+    </nav>
+    <head>
+    	
+	<div id="conteneflex">
+			<div class="flexslider">
+			  <ul class="slides">
+			    <li data-thumb="img/1.1.jpg">
+			      <img src="img/1.jpg" />
+			    </li>
+			    <li data-thumb="img/2.1.jpg">
+			      <img src="img/2.jpg" />
+			    </li>
+			    <li data-thumb="img/3.1.jpg">
+			      <img src="img/3.jpg" />
+			    </li>
+			    <li data-thumb="img/4.1.jpg">
+			      <img src="img/4.jpg" />
+			    </li>
+			  </ul>
+			</div>
+</div>
+    </head>
+
+
+</body>
+</html>
